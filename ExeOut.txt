@@ -1,0 +1,7 @@
+Programming by Eric Chauvin.
+Version date: 3/25/2022
+
+Stack size: 67108864
+
+X11 init().
+End of main app.
