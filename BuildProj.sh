@@ -40,6 +40,9 @@ cd /home/Eric/X11Editor
 # List all clang predefined macros:
 # clang++ -x c /dev/null -dM -E > Build.log
 
+# -I /usr/include/X11 -L /usr/X11/lib
+
+# libX11.so is the X11 library file.
+# Is it true that the -lX11 has to be the last option listed?
+
 clang++ *.cpp /home/Eric/LinuxApi/*.cpp /home/Eric/X11Api/*.cpp -o X11Editor -Weverything -Wno-padded -Wno-c++98-compat-pedantic -ftrapv -Ofast  -lX11 2> Build.log
-
-

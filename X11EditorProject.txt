@@ -1,0 +1,12 @@
+buildfile	/home/Eric/X11Editor/BuildProj.sh
+executablefile	/home/Eric/X11Editor/X11Editor
+projectdirectory	/home/Eric/X11Editor
+recentfile1	/home/Eric/X11Editor/MainApp.h
+recentfile2	/home/Eric/X11Editor/MainApp.cpp
+recentfile3	/home/Eric/Docs/Notes.txt
+recentfile4	/home/Eric/X11Api/X11Main.h
+recentfile5	/home/Eric/X11Api/X11Main.cpp
+recentfile6	/home/Eric/X11Editor/X11.txt
+recentfile7	/includeCopy/X11/Xlib.h
+recentfile8	/home/Eric/X11Editor/RectBase.h
+recentfile9	/includeCopy/X11/X.h

@@ -1,4 +1,11 @@
 // Copyright Eric Chauvin, 2021 - 2022.
+// This copyright notice has to stay at the top.
+
+
+// This is licensed under the GNU General
+// Public License (GPL).  It is the
+// same license that Linux has.
+// https://www.gnu.org/licenses/gpl-3.0.html
 
 
 
@@ -19,7 +26,7 @@
 int MainApp::mainLoop( void )
 {
 Int32 delay = 200; // milliseconds.
-const char* outFile = "/home/Eric/EditXA/ExeOut.txt";
+const char* outFile = "/home/Eric/X11Editor/ExeOut.txt";
 
 try
 {
@@ -51,7 +58,7 @@ Signals::setupIllegalOpSignal();
 Signals::setupBadMemSignal();
 
 X11Main x11Main;
-x11Main.init( mainIO );
+x11Main.test( mainIO );
 
 
 mainIO.appendChars( "End of main app.\n" );
