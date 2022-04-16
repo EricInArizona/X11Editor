@@ -3,10 +3,31 @@ executablefile	/home/Eric/X11Editor/X11Editor
 projectdirectory	/home/Eric/X11Editor
 recentfile1	/home/Eric/X11Editor/MainApp.h
 recentfile2	/home/Eric/X11Editor/MainApp.cpp
-recentfile3	/home/Eric/Docs/Notes.txt
-recentfile4	/home/Eric/X11Api/X11Main.h
-recentfile5	/home/Eric/X11Api/X11Main.cpp
-recentfile6	/home/Eric/X11Editor/X11.txt
-recentfile7	/includeCopy/X11/Xlib.h
-recentfile8	/home/Eric/X11Editor/RectBase.h
-recentfile9	/includeCopy/X11/X.h
+recentfile3	/home/Eric/X11Api/X11Main.h
+recentfile4	/home/Eric/X11Api/X11Main.cpp
+recentfile5	/includeCopy/X11/Xlib.h
+recentfile6	/home/Eric/X11Editor/RectBase.h
+recentfile7	/includeCopy/X11/X.h
+recentfile8	/home/Eric/X11Api/X11Const.h
+recentfile10	
+recentfile9	
+recentfile11	
+recentfile12	
+recentfile13	
+recentfile14	
+recentfile15	
+recentfile16	
+recentfile17	
+recentfile18	
+recentfile19	
+recentfile20	
+recentfile21	
+recentfile22	
+recentfile23	
+recentfile24	
+recentfile25	
+recentfile26	
+recentfile27	
+recentfile28	
+recentfile29	
+recentfile30	

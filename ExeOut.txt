@@ -1,7 +1,12 @@
 Programming by Eric Chauvin.
-Version date: 3/25/2022
+Version date: 4/16/2022
 
 Stack size: 67108864
 
+X11 test top.
 X11 init().
+init() is OK.
+dWidth: 1920
+Got a quit.
+After close.
 End of main app.

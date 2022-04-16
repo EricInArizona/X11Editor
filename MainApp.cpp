@@ -133,6 +133,8 @@ if( dHeight < 600 )
   dHeight = 600;
 
 
+// Creating a window tells it what events it is interested
+// in getting here.
 Uint64 newWin = X11Main::createSimpleWindow(
                       1,
                       1,
@@ -145,7 +147,48 @@ Uint64 newWin = X11Main::createSimpleWindow(
                       5 );
 
 
-Threads::sleep( 5000 );
+
+for( Int32 count = 0; count < 100; count++ )
+  {
+  Int32 whatEvent = X11Main::checkWindowEvent( newWin );
+  if( whatEvent == X11Const::EventNothing )
+    {
+    Threads::sleep( 100 );
+    continue;
+    }
+
+
+  if( whatEvent == X11Const::EventExpose )
+    {
+    x11DrawWindow( newWin );
+    }
+
+
+  if( whatEvent == X11Const::EventKeyPress )
+    {
+    char aKey = X11Main::getKeyChar();
+    if( aKey == 'q' )
+      {
+      mainIO.appendChars( "Got a quit.\n" );
+      break;
+      }
+
+    continue;
+    }
+
+  if( whatEvent == X11Const::EventButtonPress )
+    {
+    // Get the x, y positions.
+    // event.xbutton.x
+    // event.xbutton.y
+    continue;
+    }
+
+
+  Threads::sleep( 100 );
+  }
+
+
 
 X11Main::destroyWindow( newWin );
 
@@ -156,3 +199,11 @@ mainIO.appendChars( "After close.\n" );
 
 
 
+
+void MainApp::x11DrawWindow( Uint64 window )
+{
+X11Main::drawRectangle( window, 100, 100, 500, 400 );
+
+// XDrawString(dis,win,gc,x,y, string, strlen(string));
+
+}
