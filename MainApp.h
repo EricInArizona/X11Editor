@@ -29,7 +29,7 @@ class MainApp
   public:
   inline static const char* getVersionStr( void )
     {
-    return "4/16/2022";
+    return "4/25/2022";
     }
 
   // Int32 mainLoop( Int32 argc, char* argv[] );

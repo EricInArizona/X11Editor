@@ -25,6 +25,11 @@ class RectBase
 
   virtual void draw( FileIO& mainIO );
 
+// This should have things like fill and clear() for
+// the rectangle.  And Draw a visible border if it has one.
+// And isInside().
+// The topmost rectangles would be last in a list.
+// So go backwards through the list for topmost first.
 
 /*
 class Derived : RectBase

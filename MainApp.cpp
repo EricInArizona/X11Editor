@@ -146,6 +146,13 @@ Uint64 newWin = X11Main::createSimpleWindow(
                       dHeight - 110,
                       5 );
 
+X11Main::listFonts( mainIO );
+
+// Uint64 fontID =
+// X11Main::loadFont( "fixed" );
+
+X11Main::loadFont( "-misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1" );
+
 
 
 for( Int32 count = 0; count < 100; count++ )
@@ -204,6 +211,7 @@ void MainApp::x11DrawWindow( Uint64 window )
 {
 X11Main::drawRectangle( window, 100, 100, 500, 400 );
 
-// XDrawString(dis,win,gc,x,y, string, strlen(string));
+X11Main::drawString( window, 150, 150, "Test draw this." );
+
 
 }
